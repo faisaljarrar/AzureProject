@@ -3,4 +3,7 @@ provider "azurerm" {
   features {}
 }
 # Configure files provider
-provider "file" {}
+provider "hashicorp/file" {
+  version = "<desired_version>"
+  # Other provider configurations, if any
+}
