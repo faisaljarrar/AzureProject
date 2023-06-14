@@ -10,9 +10,3 @@ variable "sql_server_name" {
   type        = string
   default     = "my-sql-server"
 }
-
-variable "database_name" {
-  description = "mysql"
-  type        = string
-  default     = "my-database"
-}
