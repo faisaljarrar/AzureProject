@@ -8,5 +8,5 @@ variable "resource_group_name" {
 variable "sql_server_name" {
   description = "sql"
   type        = string
-  default     = "my-sql-server"
+  default     = "project-sql-server"
 }
