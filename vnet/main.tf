@@ -42,11 +42,11 @@ provider "azurerm" {
 }
 
 # Create a resource group
-resource "azurerm_resource_group" "terraform" {
+resource "azurerm_resource_group" "terraform123" {
   name     = "terraform-resources"
   location = "westus"
 }
-resource "azurerm_network_security_group" "terraform" {
+resource "azurerm_network_security_group" "terraformnsg" {
   name                = "terraform-security-group"
   location            = azurerm_resource_group.terraform.location
   resource_group_name = azurerm_resource_group.terraform.name
