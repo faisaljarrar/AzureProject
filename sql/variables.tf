@@ -2,7 +2,7 @@
 variable "resource_group_name" {
   description = "rg"
   type        = string
-  default     = "my-resource-group"
+  default     = "project-resource-group"
 }
 
 variable "sql_server_name" {
