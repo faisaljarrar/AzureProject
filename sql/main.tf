@@ -20,7 +20,5 @@ resource "azurerm_sql_server" "sql" {
   
   administrator_login          = "mysqladminun"
   administrator_login_password = "H@Sh1CoR3!"
-
-  sku_name   = "B_Gen5_2"
   version    = "5.7"
 }
