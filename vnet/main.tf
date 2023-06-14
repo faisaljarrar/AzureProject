@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "terraform" {
   location = "westus"
 }
 
-resource "azurerm_storage_account" "terraform" {
+resource "azurerm_storage_account" "terraform2" {
   name                     = "team2project"
   resource_group_name      = azurerm_resource_group.terraform.name
   location                 = azurerm_resource_group.terraform.location
