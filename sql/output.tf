@@ -1,12 +1,7 @@
 # Define outputs
-output "database_name" {
-  value = azurerm_sql_database.example.name
-}
-
 output "server_name" {
-  value = azurerm_sql_server.example.name
+  value = azurerm_sql_server.sql.name
 }
-
-output "config_file" {
-  value = file.example.filename
+output url {
+    value = azurerm_mysql_server.sql.fqdn
 }
