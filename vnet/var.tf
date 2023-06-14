@@ -5,9 +5,9 @@ variable "resource_group_name" {
 }
 
 variable "use_for_each" {
+  description = "Flag to determine whether to use for_each or count"
   type        = bool
-  description = "Use `for_each` instead of `count` to create multiple resource instances."
-  nullable    = false
+  default     = false
 }
 
 variable "vnet_location" {
