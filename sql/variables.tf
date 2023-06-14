@@ -1,18 +1,18 @@
 # Define variables
 variable "resource_group_name" {
-  description = "Name of the resource group"
+  description = "rg"
   type        = string
   default     = "my-resource-group"
 }
 
 variable "sql_server_name" {
-  description = "Name of the Azure SQL server"
+  description = "sql"
   type        = string
   default     = "my-sql-server"
 }
 
 variable "database_name" {
-  description = "Name of the Azure SQL database"
+  description = "mysql"
   type        = string
   default     = "my-database"
 }
